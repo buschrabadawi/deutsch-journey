@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/deutsch-journey/static/css/main.43f166fc.css",
+    "main.js": "/deutsch-journey/static/js/main.380fd638.js",
+    "static/js/787.28cb0dcd.chunk.js": "/deutsch-journey/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Berlin.jpg": "/deutsch-journey/static/media/Berlin.2d5a92c73fb6d1e64a7d.jpg",
+    "static/media/munich.jpg": "/deutsch-journey/static/media/munich.0152b8c7cd1e0e87560c.jpg",
+    "static/media/numbers.jpg": "/deutsch-journey/static/media/numbers.128094d0e686c3ed3f0c.jpg",
+    "static/media/home-banner.jpg": "/deutsch-journey/static/media/home-banner.e1a2ddeda1466a852c06.jpg",
+    "static/media/greetings.jpg": "/deutsch-journey/static/media/greetings.ab13b0601cb79f4b1b99.jpg",
+    "static/media/alphabet.jpg": "/deutsch-journey/static/media/alphabet.5282276242d42e5a97f0.jpg",
+    "static/media/vocabulary.jpg": "/deutsch-journey/static/media/vocabulary.07b2c159822816c42836.jpg",
+    "static/media/logo.png": "/deutsch-journey/static/media/logo.98123b319d12f6a882e4.png",
+    "index.html": "/deutsch-journey/index.html",
+    "main.43f166fc.css.map": "/deutsch-journey/static/css/main.43f166fc.css.map",
+    "main.380fd638.js.map": "/deutsch-journey/static/js/main.380fd638.js.map",
+    "787.28cb0dcd.chunk.js.map": "/deutsch-journey/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43f166fc.css",
+    "static/js/main.380fd638.js"
+  ]
+}
