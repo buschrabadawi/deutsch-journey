@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Deutsch Journey 🇩🇪
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beginner-friendly German language learning website built with ReactJS.
 
-## Available Scripts
+**Course:** CSCI426 – Advanced Web Programming
+**Name:** Buschra Nancy A. Badawi
+**Instructor:** Kawthar Messelmani
+**University:** Lebanese International University (LIU)
 
-In the project directory, you can run:
+## About the Project
 
-### `npm start`
+Deutsch Journey introduces beginners to German through simple, organized A1-level lessons. The website is responsive and works on desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Multi-page navigation with React Router (no page reloads)
+- Responsive layout using Bootstrap and custom CSS media queries
+- Mobile navigation menu with a toggle button
+- Four expandable A1 lessons: German Alphabet, Basic Greetings, Numbers (1–20), and Basic Vocabulary
+- Login/Register interface with form validation (frontend only for now)
 
-### `npm test`
+## Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Page | Route |
+|------|-------|
+| Home | `/` |
+| Lessons | `/lessons` |
+| Login / Register | `/loginregister` |
+| About | `/about` |
+| Contact | `/contact` |
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ReactJS
+- JavaScript, HTML/JSX, CSS
+- Bootstrap and React-Bootstrap
+- React Router DOM
+- Git and GitHub
+- Visual Studio Code
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+frontend/
+├── public/
+└── src/
+    ├── assets/
+    │   └── alphabet.jpg
+    |   └── Berlin.jpg
+    |   └── greetings.jpg
+    |   └── home-banner.jpg
+    |   ├── logo.png
+    |   ├── munich.jpg
+    |   ├── numbers.jpg
+    |   └── vocabulary.jpg
+    |   
+    ├── components/
+    │   ├── Footer.js
+    │   └── NavBar.js
+    ├── pages/
+    │   ├── Home.js
+    │   ├── Lessons.js
+    │   ├── LoginRegister.js
+    │   ├── About.js
+    │   └── Contact.js
+    ├── styles/
+    │   ├── Home.css
+    │   ├── Lessons.css
+    │   ├── LoginRegister.css
+    │   ├── About.css
+    │   ├── Contact.css
+    │   ├── NavBar.css
+    │   └── Footer.css
+    ├── App.js
+    ├── App.css
+    ├── index.js
+    └── index.css
 
-### `npm run eject`
+    
+## How to Run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone <your-repository-url>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Go to the frontend folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd frontend
 
-## Learn More
+3. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the app:
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Analyzing the Bundle Size
+## Current Limitations and Future Work
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This is Phase 1, a frontend-only application. The Login/Register form validates input but does not connect to a backend yet. Planned improvements:
 
-### Making a Progressive Web App
+- Backend with a database
+- Working user authentication
+- More lessons beyond A1
+- Progress tracking
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Images sourced from Pinterest. Report designed with Canva.

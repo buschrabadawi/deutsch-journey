@@ -1,0 +1,135 @@
+
+/* ===== Login / Register Page ===== */
+
+.auth-page {
+  min-height: 80vh;
+  background-color: #faf7f7;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+/* ===== Card ===== */
+
+.auth-card {
+  border: none !important;
+  border-radius: 15px !important;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.auth-heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.auth-heading h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.auth-heading p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* ===== Tabs ===== */
+
+.auth-tabs {
+  display: flex;
+  gap: 10px;
+  background-color: #f1eeee;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.auth-tabs button {
+  flex: 1;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.active-tab {
+  background-color: #C8102E !important;
+  border-color: #C8102E !important;
+  color: white !important;
+}
+
+.inactive-tab {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: #555 !important;
+}
+
+/* ===== Form ===== */
+
+.auth-card .form-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.auth-card .form-control {
+  padding: 12px;
+  border-radius: 7px;
+}
+
+.auth-card .form-control:focus {
+  border-color: #C8102E;
+  box-shadow: 0 0 0 0.2rem rgba(200, 16, 46, 0.12);
+}
+
+/* ===== Submit Button ===== */
+
+.auth-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #C8102E !important;
+  border: 1px solid #C8102E !important;
+  font-weight: 600;
+}
+
+.auth-submit:hover {
+  background-color: #9F0D24 !important;
+  border-color: #9F0D24 !important;
+}
+
+/* ===== Switch Text ===== */
+
+.auth-switch {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.auth-switch button {
+  border: none;
+  background: none;
+  color: #C8102E;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-switch button:hover {
+  text-decoration: underline;
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 576px) {
+  .auth-page {
+    padding: 35px 12px;
+  }
+
+  .auth-card {
+    padding: 10px;
+  }
+
+  .auth-heading h1 {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,45 @@
+
+.contact-page {
+  min-height: 80vh;
+  background-color: #f8f9fa;
+}
+
+.contact-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.contact-page {
+  min-height: 80vh;
+  background-color: #f8f9fa;
+}
+
+.contact-content {
+  padding: 20px;
+}
+
+.contact-content .btn-danger {
+  background-color: #C8102E;
+  border-color: #C8102E;
+  padding: 10px 25px;
+}
+
+.contact-content .btn-danger:hover {
+  background-color: #a50d25;
+  border-color: #a50d25;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .contact-image {
+    max-width: 100%;
+  }
+
+  .contact-content {
+    padding: 10px 0;
+  }
+}

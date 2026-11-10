@@ -1,0 +1,166 @@
+
+/* ====== Navbar Container ====== */
+.navbar-container {
+  width: 100%;
+  background-color: #C8102E;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+/* ====== Left Side: Logo + Brand ====== */
+.navbar-container .leftSide {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-container .leftSide img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  display: block;
+}
+
+.navbar-container .brand-name {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* ====== Right Side: Desktop Links + Button ====== */
+.navbar-container .rightSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-container .desktopLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-container .desktopLinks a,
+.navbar-container .hiddenLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 6px;
+  transition: color 0.3s ease;
+}
+
+.navbar-container .desktopLinks a:hover,
+.navbar-container .hiddenLinks a:hover {
+  color: #f5d6dc;
+}
+
+/* ====== Hamburger Button ====== */
+.navbar-container .menuButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: #fff;
+  font-size: 30px;
+}
+
+/* ====== Mobile Links ====== */
+.navbar-container .hiddenLinks {
+  display: none;
+}
+
+.navbar-container.is-open .hiddenLinks {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+  background-color: #C8102E;
+  display: grid;
+  gap: 10px;
+  padding: 12px 5% 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  animation: menuDrop 0.18s ease-out;
+}
+
+@keyframes menuDrop {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ====== Desktop ====== */
+@media (min-width: 769px) {
+  .navbar-container .desktopLinks {
+    display: flex;
+  }
+
+  .navbar-container .menuButton {
+    display: none;
+  }
+
+  .navbar-container .hiddenLinks {
+    display: none !important;
+  }
+}
+
+/* ====== Mobile ====== */
+@media (max-width: 768px) {
+  .navbar-container {
+    min-height: 64px;
+    padding: 0 16px;
+  }
+
+  .navbar-container .leftSide img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .navbar-container .brand-name {
+    font-size: 18px;
+  }
+
+  .navbar-container .desktopLinks {
+    display: none;
+  }
+
+  .navbar-container .menuButton {
+    display: inline-flex;
+  }
+
+  .navbar-container.is-open .hiddenLinks {
+    top: 64px;
+  }
+}
+
+/* ====== Small Phones ====== */
+@media (max-width: 380px) {
+  .navbar-container .leftSide img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .navbar-container .brand-name {
+    font-size: 16px;
+  }
+}

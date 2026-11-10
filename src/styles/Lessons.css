@@ -1,0 +1,174 @@
+
+
+/* Lessons Page */
+
+.lessons-page {
+  background-color: #faf7f7;
+  min-height: 100vh;
+  padding: 55px 0;
+  font-family: Arial, sans-serif;
+}
+
+.lessons-container {
+  max-width: 950px;
+}
+
+/* Header */
+
+.lessons-header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.lessons-header span {
+  color: #C8102E;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.lessons-header h1 {
+  color: #333;
+  font-size: 38px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.lessons-header p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Accordion */
+
+.accordion-item {
+  border: 1px solid #eee !important;
+  border-radius: 8px !important;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  background-color: white !important;
+  color: #333 !important;
+  padding: 22px 25px;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff0f1 !important;
+  color: #C8102E !important;
+}
+
+.accordion-button::after {
+  filter: none;
+}
+
+.lesson-number {
+  display: block;
+  color: #C8102E;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+}
+
+.accordion-header h5 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.accordion-header p {
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Lesson Content */
+
+.accordion-body {
+  background-color: white;
+  padding: 28px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.accordion-body h4 {
+  color: #C8102E;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.accordion-body h5 {
+  color: #333;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+
+.accordion-body strong {
+  color: #C8102E;
+}
+
+.accordion-body ul {
+  padding-left: 22px;
+}
+
+.accordion-body li {
+  margin-bottom: 7px;
+}
+
+/* Numbers Grid */
+
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(10, auto);
+  grid-auto-flow: column;
+  gap: 8px 40px;
+}
+
+.numbers-grid p {
+  margin: 0;
+}
+
+/* Vocabulary */
+
+.vocabulary-list p {
+  margin-bottom: 10px;
+}
+
+/* Mobile */
+
+@media (max-width: 576px) {
+  .lessons-page {
+    padding: 35px 0;
+  }
+
+  .lessons-header h1 {
+    font-size: 29px;
+  }
+
+  .lessons-header p {
+    font-size: 14px;
+  }
+
+  .accordion-button {
+    padding: 17px;
+  }
+
+  .accordion-body {
+    padding: 20px;
+  }
+
+  .numbers-grid {
+    grid-template-columns: 1fr;
+  }
+}

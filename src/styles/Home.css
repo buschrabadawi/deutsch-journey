@@ -1,0 +1,242 @@
+/* ===== Home Page ===== */
+
+.home-page {
+  width: 100%;
+  color: #252525;
+}
+
+/* ===== Hero Section ===== */
+
+.home-hero {
+  background-color: #faf7f7;
+  padding: 75px 0;
+}
+
+.hero-content {
+  padding: 30px;
+}
+
+.hero-label {
+  color: #C8102E;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero-content h1 {
+  font-size: clamp(35px, 5vw, 55px);
+  font-weight: 750;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+
+.hero-content h1 span {
+  display: block;
+  color: #C8102E;
+}
+
+.hero-content p {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 500px;
+  margin-bottom: 28px;
+}
+
+.hero-image-column {
+  padding: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* ===== Buttons ===== */
+
+.home-button {
+  background-color: #C8102E !important;
+  border: 1px solid #C8102E !important;
+  color: white !important;
+  padding: 12px 25px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #9F0D24 !important;
+  border-color: #9F0D24 !important;
+}
+
+/* ===== Introduction Section ===== */
+
+.home-introduction {
+  padding: 75px 0;
+  background-color: #fff;
+}
+
+.section-heading {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 45px;
+}
+
+.section-heading span {
+  color: #C8102E;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.section-heading p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.features-row {
+  margin-top: 35px;
+}
+
+.feature-item {
+  height: 100%;
+  padding: 28px 22px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.feature-item h4 {
+  color: #C8102E;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-item p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* ===== Featured Lessons ===== */
+
+.featured-lessons {
+  padding: 75px 0;
+  background-color: #faf7f7;
+}
+
+.lesson-card {
+  border: none !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
+}
+
+.lesson-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
+}
+
+.lesson-card img {
+  height: 210px;
+  object-fit: cover;
+}
+
+.lesson-card .card-body {
+  padding: 24px;
+}
+
+.lesson-card .card-title {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.lesson-card .card-text {
+  color: #666;
+  line-height: 1.6;
+  min-height: 75px;
+}
+
+/* ===== View All Lessons Link ===== */
+
+.all-lessons-link {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.all-lessons-link a {
+  color: #C8102E;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.all-lessons-link a span {
+  display: inline-block;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.all-lessons-link a:hover {
+  color: #9F0D24;
+}
+
+.all-lessons-link a:hover span {
+  transform: translateX(5px);
+}
+
+/* ===== Responsive Design ===== */
+
+@media (max-width: 991px) {
+  .home-hero {
+    padding: 45px 0;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-image {
+    height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content {
+    padding: 15px;
+  }
+
+  .hero-image {
+    height: 240px;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .home-introduction,
+  .featured-lessons {
+    padding: 50px 0;
+  }
+}
