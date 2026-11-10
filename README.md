@@ -17,7 +17,7 @@ https://github.com/buschrabadawi/deutsch-journey
 
 ## About the Project
 
-Deutsch Journey introduces beginners to German through simple, organized A1-level lessons. The website is responsive and works on desktop and mobile devices.
+Deutsch Journey introduces beginners to German through simple, organized A1-level lessons. The website is responsive and works on desktop and mobile devices. All content is static data, used to demonstrate the design.
 
 ## Features
 
@@ -25,7 +25,7 @@ Deutsch Journey introduces beginners to German through simple, organized A1-leve
 - Responsive layout using Bootstrap and custom CSS media queries
 - Mobile navigation menu with a toggle button
 - Four expandable A1 lessons: German Alphabet, Basic Greetings, Numbers (1–20), and Basic Vocabulary
-- Login/Register interface with form validation (frontend only for now)
+- Login/Register interface with form validation (design demonstration only)
 
 ## Pages
 
@@ -39,8 +39,8 @@ Deutsch Journey introduces beginners to German through simple, organized A1-leve
 
 ## Technologies Used
 
-- ReactJS
-- JavaScript, HTML/JSX, CSS
+- ReactJS (Create React App)
+- JavaScript and CSS
 - Bootstrap and React-Bootstrap
 - React Router DOM
 - Git and GitHub
@@ -49,20 +49,18 @@ Deutsch Journey introduces beginners to German through simple, organized A1-leve
 ## Project Structure
 
 ```
-
-frontend/
+deutsch-journey/
 ├── public/
 └── src/
     ├── assets/
-    │   └── alphabet.jpg
-    |   └── Berlin.jpg
-    |   └── greetings.jpg
-    |   └── home-banner.jpg
-    |   ├── logo.png
-    |   ├── munich.jpg
-    |   ├── numbers.jpg
-    |   └── vocabulary.jpg
-    |   
+    │   ├── alphabet.jpg
+    │   ├── Berlin.jpg
+    │   ├── greetings.jpg
+    │   ├── home-banner.jpg
+    │   ├── logo.png
+    │   ├── munich.jpg
+    │   ├── numbers.jpg
+    │   └── vocabulary.jpg
     ├── components/
     │   ├── Footer.js
     │   └── NavBar.js
@@ -84,8 +82,7 @@ frontend/
     ├── App.css
     ├── index.js
     └── index.css
-
-    ```
+```
 
 ## How to Run
 
@@ -93,34 +90,34 @@ frontend/
 
 ```
 git clone https://github.com/buschrabadawi/deutsch-journey.git
-
 ```
 
-
-2. Go to the frontend folder:
+2. Go to the project folder:
 
 ```
-cd deutsch-journey/frontend
-
+cd deutsch-journey
 ```
 
 3. Install dependencies:
 
+```
 npm install
+```
 
 4. Start the app:
 
+```
 npm start
+```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Current Limitations and Future Work
 
-This is Phase 1, a frontend-only application. The Login/Register form validates input but does not connect to a backend yet. Planned improvements:
+This project uses static data only, to demonstrate the design. Planned improvements:
 
-- Backend with a database
-- Working user authentication
 - More lessons beyond A1
+- More interactive features
 - Progress tracking
 
 ## Acknowledgements
