@@ -99,7 +99,10 @@ git clone https://github.com/buschrabadawi/deutsch-journey.git
 
 2. Go to the frontend folder:
 
-cd frontend
+```
+cd deutsch-journey/frontend
+
+```
 
 3. Install dependencies:
 
