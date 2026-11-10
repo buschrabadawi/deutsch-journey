@@ -7,6 +7,14 @@ A beginner-friendly German language learning website built with ReactJS.
 **Instructor:** Kawthar Messelmani
 **University:** Lebanese International University (LIU)
 
+## Live Demo
+
+🔗 https://buschrabadawi.github.io/deutsch-journey/
+
+## Repository
+
+https://github.com/buschrabadawi/deutsch-journey
+
 ## About the Project
 
 Deutsch Journey introduces beginners to German through simple, organized A1-level lessons. The website is responsive and works on desktop and mobile devices.
@@ -39,6 +47,8 @@ Deutsch Journey introduces beginners to German through simple, organized A1-leve
 - Visual Studio Code
 
 ## Project Structure
+
+```
 
 frontend/
 ├── public/
@@ -75,12 +85,17 @@ frontend/
     ├── index.js
     └── index.css
 
-    
+    ```
+
 ## How to Run
 
 1. Clone the repository:
 
-git clone <your-repository-url>
+```
+git clone https://github.com/buschrabadawi/deutsch-journey.git
+
+```
+
 
 2. Go to the frontend folder:
 
