@@ -49,7 +49,7 @@ Deutsch Journey introduces beginners to German through simple, organized A1-leve
 ## Project Structure
 
 ```
-deutsch-journey/
+frontend/
 ├── public/
 └── src/
     ├── assets/
@@ -95,7 +95,7 @@ git clone https://github.com/buschrabadawi/deutsch-journey.git
 2. Go to the project folder:
 
 ```
-cd deutsch-journey
+cd frontend
 ```
 
 3. Install dependencies:
